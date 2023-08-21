@@ -24,13 +24,13 @@
 
 <body>
     <!-- header start  -->
-    <header>
+    <header >
         <div class="hero min-h-screen bg-[#F9F6E2]">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src="/images/Summer 1.png" class="max-w-sm rounded-lg " />
+            <div class="hero-content flex-col md:flex-row-reverse">
+                <img src="/images/Summer 1.png" class="md:w-[250px] lg:w-[500px] w-[200px] rounded-lg " />
                 <div>
-                    <p class=" text-2xl md:text-3xl font-medium mx-6 md:mx-20 my-10">---SALE FEVER---</p>
-                    <h1 class="text-3xl md:text-5xl font-bold text-[#111111]">Purchase TK 200 or <br>
+                    <p class=" text-2xl lg:text-3xl font-medium mx-3 lg:mx-20 my-10">---SALE FEVER---</p>
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#111111]">Purchase TK 200 or <br>
                         above & get <span class="text-[#E527B2]">20% off</span></h1>
                     <p class="py-6 md:mx-20 text-[#111111] font-medium">Use Promo Code <button
                             class="btn bg-[#E527B2] text-white ml-2 ">SELL200</button></p>
@@ -53,7 +53,7 @@
                         <!-- kitchenware card-1  -->
                         <div class="card  shadow-xl  ">
                             <figure class="px-10 pt-10 ">
-                                <img src="/images/prod1.png" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
+                                <img src="/images/prod1.png"  onclick="handleClick(this)" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
@@ -65,14 +65,14 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title">K. Accessories</h2>
-                                <p class="text-[#11111180]">39.00 TK</p>
+                                <p class="text-[#11111180]"><span>39.00</span>TK</p>
 
                             </div>
                         </div>
                         <!-- kitchenware card-2  -->
                         <div class="card  shadow-xl  ">
                             <figure class="px-10 pt-10 ">
-                                <img src="/images/prod2.png" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
+                                <img src="/images/prod2.png"  onclick="handleClick(this)" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
@@ -83,14 +83,14 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title">K. Accessories</h2>
-                                <p class="text-[#11111180]">25.00 TK</p>
+                                <p class="text-[#11111180]"><span>25.00</span>TK</p>
 
                             </div>
                         </div>
                         <!-- kitchenware card-3  -->
                         <div class="card  shadow-xl  ">
                             <figure class="px-10 pt-10 ">
-                                <img src="/images/prod1.png" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
+                                <img src="/images/prod1.png" onclick="handleClick(this)" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
@@ -102,7 +102,7 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title">Home Cooker</h2>
-                                <p class="text-[#11111180]">49.00 TK</p>
+                                <p class="text-[#11111180]"><span>49.00</span> TK</p>
 
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                         <!-- Sportswear card-1  -->
                         <div class="card  shadow-xl  ">
                             <figure class="px-10 pt-10 ">
-                                <img src="/images/prod4.png" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
+                                <img src="/images/prod4.png" onclick="handleClick(this)" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
@@ -132,14 +132,14 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title">Sports Back Cap</h2>
-                                <p class="text-[#11111180]">49.00 TK</p>
+                                <p class="text-[#11111180]"><span>49.00</span> TK</p>
 
                             </div>
                         </div>
                         <!-- Sportswear card-2  -->
                         <div class="card  shadow-xl  ">
                             <figure class="px-10 pt-10 ">
-                                <img src="/images/prod5.png" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
+                                <img src="/images/prod5.png" onclick="handleClick(this)" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
@@ -151,14 +151,14 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title">Full Jersey Set</h2>
-                                <p class="text-[#11111180]">69.00 TK</p>
+                                <p class="text-[#11111180]"><span>69.00</span> TK</p>
 
                             </div>
                         </div>
                         <!-- Sportswear card-3  -->
                         <div class="card  shadow-xl  ">
                             <figure class="px-10 pt-10 ">
-                                <img src="/images/prod6.png" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
+                                <img src="/images/prod6.png" onclick="handleClick(this)" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
@@ -170,7 +170,7 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title">Sports cates</h2>
-                                <p class="text-[#11111180]">159.00 TK</p>
+                                <p class="text-[#11111180]"><span>159.00</span> TK</p>
 
                             </div>
                         </div>
@@ -186,7 +186,7 @@
                         <!-- Furniture card-1  -->
                         <div class="card  shadow-xl  ">
                             <figure class="px-10 pt-10 ">
-                                <img src="/images/prod7.png" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
+                                <img src="/images/prod7.png" onclick="handleClick(this)" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
@@ -198,14 +198,14 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
                                 <h2 class="card-title">Single Relax Chair</h2>
-                                <p class="text-[#11111180]">185.00 TK</p>
+                                <p class="text-[#11111180]"><span>185.00</span> TK</p>
 
                             </div>
                         </div>
                         <!-- Furniture card-2  -->
                         <div class="card  shadow-xl  ">
                             <figure class="px-10 pt-10 ">
-                                <img src="/images/prod8.png" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
+                                <img src="/images/prod8.png" onclick="handleClick(this)" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
@@ -217,14 +217,14 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
                                 </div>
                                 <h2 class="card-title">Children play</h2>
-                                <p class="text-[#11111180]">299.00 TK</p>
+                                <p class="text-[#11111180]"><span>299.00</span> TK</p>
 
                             </div>
                         </div>
                         <!-- Furniture card-3  -->
                         <div class="card  shadow-xl  ">
                             <figure class="px-10 pt-10 ">
-                                <img src="/images/prod9.png" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
+                                <img src="/images/prod9.png" onclick="handleClick(this)" alt="Shoes" class="rounded-xl bg-[#1111110D] p-12" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <div class="rating">
@@ -236,7 +236,7 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"checked />
                                 </div>
                                 <h2 class="card-title">Flexible Sofa</h2>
-                                <p class="text-[#11111180]">339.00 TK</p>
+                                <p class="text-[#11111180]"><span>339.00</span> TK</p>
 
                             </div>
                         </div>
@@ -252,36 +252,36 @@
                 <div class="my-10 card  shadow-xl rounded-md p-10">
                     <h2 class="text-2xl mb-4 font-semibold text-[#111111]">Have coupon?</h2>
                     <div class="flex">
-                        <input type="text" class=" border border-gray-400 px-4 rounded-md" placeholder="Coupon code">
-                        <button disabled class="btn text-white ml-1 bg-[#E527B2] ">Apply</button>
+                        <input type="" id="coupon" class=" border border-gray-400 px-4 rounded-md" placeholder="Coupon code">
+                        <button disabled id="discount-btn" class="btn text-white ml-1 bg-[#E527B2] ">Apply</button>
                     </div>
                 </div>
 
                 <!-- cart section  -->
                 <div class="my-10 shadow-xl rounded-md p-10">
                     <!-- cart items  -->
-                    <div class="p-10">
+                    <div class="p-3" id="cart-entry">
 
                     </div>
                     <hr>
                     <!-- price list  -->
                     <div class="mt-7 mb-7">
                         <!-- total price  -->
-                        <h3 class="text-2xl font-semibold  mb-3">Total Price: <span class="text-[#11111180]">00</span>
+                        <h3 class="text-2xl font-semibold  mb-3">Total Price: <span class="text-[#11111180] " id="total-price">00</span>
                             <span class="text-[#11111180]">TK</span>
                         </h3>
                         <!-- discount  -->
-                        <h3 class="text-2xl font-semibold  mb-3">Discount: <span class="text-[#11111180]">00</span>
+                        <h3 class="text-2xl font-semibold  mb-3">Discount: <span class="text-[#11111180] " id="discount-price">00</span>
                             <span class="text-[#11111180]">TK</span>
                         </h3>
                         <!-- total  -->
-                        <h3 class="text-2xl font-semibold  mb-3">Total: <span class="text-[#11111180]">00</span> <span
+                        <h3 class="text-2xl font-semibold  mb-3">Total: <span class="text-[#11111180]" id="total">00</span> <span
                                 class="text-[#11111180]">TK</span></h3>
                     </div>
                     <hr>
                     <!-- buy button  -->
                     <!-- Open the modal using ID.showModal() method -->
-                    <button disabled class="btn btn-wide mt-10 ml-3 text-white bg-[#E527B2]"
+                    <button disabled id="buy-btn" class="btn btn-wide mt-10 ml-3 text-white bg-[#E527B2]"
                         onclick="my_modal_5.showModal()">Make Purchase</button>
                     <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
                         <form method="dialog" class="modal-box">
@@ -294,7 +294,7 @@
                                   <p>You Purchase the product</p>
                                      <!-- back to home page button  -->
                                   <div class="card-actions">
-                                    <button class="btn   text-white bg-[#E527B2]">Go Home</button>
+                                    <button class="btn   text-white bg-[#E527B2]" id="go-home-btn">Go Home</button>
                                   </div>
                                 </div>
                               </div>
@@ -305,7 +305,9 @@
             </div>
         </section>
     </main>
-
+    <script src="js/utilites.js"></script>
+    <script src="js/cart.js"></script>
+    
 </body>
 
 </html>
